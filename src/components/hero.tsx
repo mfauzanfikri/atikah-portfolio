@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="flex flex-col flex-wrap lg:flex-row">
           <div className="w-full self-center font-VT323 lg:w-1/2">
             <h1 className="font-medium text-primary md:text-2xl ">
-              Hi, there! This is me,
+              Hello! It's me,
               <span className="block text-4xl font-bold text-dark lg:text-6xl">
                 Atikah Wulan Dari
               </span>
