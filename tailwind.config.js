@@ -7,12 +7,11 @@ export default {
         xs: "420px",
       },
       fontFamily: {
-        poppins: "Poppins, sans-serif",
-        VT323: "VT323, sans-serif",
+        inter: "Inter Variable, sans-serif",
       },
       colors: {
-        primary: "#0ea5e9",
-        secondary: "#475569",
+        primary: "#fb923c",
+        secondary: "#6b7280",
         dark: "#0f172a",
       },
       boxShadow: {

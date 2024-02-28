@@ -1,24 +1,24 @@
-import { useState } from "react";
-import { Typewriter } from "react-simple-typewriter";
+// import { useState } from "react";
+// import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
-  const [isImgLoading, setisImgLoading] = useState(true);
+  // const [isImgLoading, setisImgLoading] = useState(true);
 
   return (
-    <section id="home" className="pt-24 lg:pt-36">
+    <section id="home" className="py-24 lg:pt-36">
       <div className="container mx-auto px-4">
         <div className="flex flex-col flex-wrap lg:flex-row">
           <div className="w-full self-center font-VT323 lg:w-1/2">
             <h1 className="font-medium text-primary md:text-2xl ">
               Hi, there! This is me,
               <span className="block text-4xl font-bold text-dark lg:text-6xl">
-                M. Fauzan Fikri
+                Atikah Wulan Dari
               </span>
             </h1>
             <h2 className="mb-5 text-lg text-secondary lg:text-3xl">
               I'm a{" "}
               <span className="font-bold text-dark">
-                <Typewriter
+                {/* <Typewriter
                   words={[
                     "Web Developer",
                     "Full-stack Developer",
@@ -26,13 +26,13 @@ const Hero = () => {
                   ]}
                   loop
                   cursor
-                />
+                /> */}
+                Data Analyst
               </span>
             </h2>
             <p className="mb-5 max-w-xs text-secondary md:max-w-sm md:text-lg lg:text-xl">
-              Driven by <span className="font-semibold">passion</span> to make
-              quality products made with a little bit of{" "}
-              <span className="text-rose-500">love</span>.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+              quasi, voluptate quas modi doloribus iusto.
             </p>
 
             <a
@@ -46,16 +46,16 @@ const Hero = () => {
           <div className="w-full self-end px-4 lg:w-1/2">
             <div className="relative mt-10 lg:right-0 lg:mt-0">
               <img
-                src="./images/fauzan.png"
-                alt="M. Fauzan Fikri"
+                src="./images/atikah.png"
+                alt="Atikah Wulan Dari"
                 className="mx-auto max-w-full"
                 width={445}
                 height={560}
                 onLoad={() => {
-                  setisImgLoading(false);
+                  // setisImgLoading(false);
                 }}
               />
-              <span
+              {/* <span
                 className={`${isImgLoading && "hidden"} absolute bottom-4 left-1/2 -z-10 -translate-x-1/2 overflow-hidden sm:scale-125 lg:bottom-10`}
               >
                 <svg
@@ -69,7 +69,7 @@ const Hero = () => {
                     transform="translate(100 100) scale(0.8)"
                   />
                 </svg>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section id="contact" className="bg-slate-100 pb-36 pt-36">
+    <section id="contact" className="pb-36 pt-36">
       <div className="container mx-auto">
         <div className="w-full px-4">
           <div className="mx-auto mb-16 max-w-xl text-center">
@@ -20,7 +20,7 @@ const Contact = () => {
               <p className="text-sm lg:text-base">Contact me with email</p>
             </div>
             <div className="flex w-1/2 items-center justify-end lg:w-[20%]">
-              <a href="mailto:mfauzanfikri09@gmail.com">
+              <a href="mailto:atikahwulandari16@gmail.com">
                 <button className="rounded-lg bg-primary px-3 py-1.5 text-sm text-white hover:opacity-80 md:text-base">
                   Email Me
                 </button>

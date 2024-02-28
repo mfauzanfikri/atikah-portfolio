@@ -1,6 +1,6 @@
 const TechStack = () => {
   return (
-    <section id="tech-stack" className="bg-slate-700 py-28 text-white">
+    <section id="tech-stack" className="bg-yellow-50 py-28">
       <div className="container mx-auto">
         <div className="w-full px-4">
           <div className="mx-auto mb-16 max-w-xl text-center">
@@ -10,7 +10,7 @@ const TechStack = () => {
             <h2 className="mb-4 text-3xl font-bold sm:text-4xl lg:text-5xl">
               Technologies I Use
             </h2>
-            <p className="text-md font-medium text-slate-200">
+            <p className="text-md font-medium">
               Down below are languages, frameworks, libraries, and other
               technologies that I usually use.
             </p>
@@ -20,7 +20,7 @@ const TechStack = () => {
             <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-5">
               {/* HTML */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -36,7 +36,7 @@ const TechStack = () => {
 
               {/* CSS */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -52,7 +52,7 @@ const TechStack = () => {
 
               {/* JavaScript */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -68,7 +68,7 @@ const TechStack = () => {
 
               {/* PHP */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -84,7 +84,7 @@ const TechStack = () => {
 
               {/* MySQL */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -100,7 +100,7 @@ const TechStack = () => {
 
               {/* CodeIgniter */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -116,7 +116,7 @@ const TechStack = () => {
 
               {/* Bootstrap */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -132,7 +132,7 @@ const TechStack = () => {
 
               {/* Figma */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 7.678 7.68"
@@ -165,7 +165,7 @@ const TechStack = () => {
 
               {/* Git */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 92 92"
@@ -187,7 +187,7 @@ const TechStack = () => {
 
               {/* GitHub */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -203,7 +203,7 @@ const TechStack = () => {
 
               {/* Node.js */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -219,7 +219,7 @@ const TechStack = () => {
 
               {/* TypeScript */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -235,7 +235,7 @@ const TechStack = () => {
 
               {/* Express */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -251,7 +251,7 @@ const TechStack = () => {
 
               {/* React */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -267,7 +267,7 @@ const TechStack = () => {
 
               {/* Vite */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -314,7 +314,7 @@ const TechStack = () => {
 
               {/* Tailwind CSS */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -330,7 +330,7 @@ const TechStack = () => {
 
               {/* Next.js */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -346,7 +346,7 @@ const TechStack = () => {
 
               {/* Prisma */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -362,7 +362,7 @@ const TechStack = () => {
 
               {/* PrimeReact */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 48 52"
@@ -443,7 +443,7 @@ const TechStack = () => {
 
               {/* Flowbite */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
@@ -462,7 +462,7 @@ const TechStack = () => {
 
               {/* Chart.js */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
@@ -497,7 +497,7 @@ const TechStack = () => {
 
               {/* Datatables */}
               <div className="flex flex-col items-center text-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white p-2 lg:h-14 lg:w-14">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-yellow-400 bg-white p-2 lg:h-14 lg:w-14">
                   <img
                     src="./images/Datatables_logo.png"
                     alt="Datatables"

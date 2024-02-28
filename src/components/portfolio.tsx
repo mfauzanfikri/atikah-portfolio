@@ -1,6 +1,6 @@
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="bg-slate-100 pb-16 pt-36">
+    <section id="portfolio" className="pb-16 pt-36">
       <div className="container mx-auto">
         <div className="w-full px-4">
           <div className="mx-auto mb-16 max-w-xl text-center">

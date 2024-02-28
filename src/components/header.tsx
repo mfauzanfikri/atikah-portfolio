@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <header
-      className={`${isScrolling ? "fixed z-[999] bg-opacity-60 shadow-nav backdrop-blur-[5px]" : "absolute"} left-0 top-0 z-10 flex w-full items-center bg-transparent`}
+      className={`${isScrolling ? "fixed z-[999] bg-yellow-50 shadow-nav backdrop-blur-[5px]" : "absolute bg-yellow-100"} left-0 top-0 z-10 flex w-full items-center `}
     >
       <div className="container mx-auto">
         <div className="relative flex items-center justify-between">
@@ -42,7 +42,7 @@ const Header = () => {
               href="#home"
               className="block py-6 font-VT323 text-xl font-bold tracking-wide text-primary lg:text-2xl"
             >
-              mfauzanfikri
+              atikahwulandari
             </a>
           </div>
           <div className="flex items-center px-4">
