@@ -62,7 +62,7 @@ const Header = () => {
             </button>
 
             <nav
-              className={`${!isActive && "hidden"} absolute right-4 top-[110%] w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none`}
+              className={`${!isActive && "hidden"} absolute right-4 top-[110%] w-full max-w-[250px] rounded-lg bg-yellow-50 py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none`}
             >
               <ul className="flex flex-col gap-2.5 lg:flex-row lg:gap-0">
                 <a

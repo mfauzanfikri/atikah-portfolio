@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-yellow-700 pb-12 pt-24">
       <div className="container mx-auto px-4">
-        <div className="flex flex-wrap text-slate-300">
+        <div className="flex flex-wrap text-gray-200">
           <div className="mb-12 w-full px-4 font-medium md:w-1/2">
             <h2 className="text-4xl font-bold text-white">Atikah Wulan Dari</h2>
             <h3 className="mb-2 text-2xl font-bold">Contact Me</h3>
@@ -17,22 +17,22 @@ const Footer = () => {
                 <a href="#home">Home</a>
               </li>
               <li>
-                <a href="#about" className="hover:text-slate-200">
+                <a href="#about" className="hover:text-gray-100">
                   About
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="hover:text-slate-200">
+                <a href="#portfolio" className="hover:text-gray-100">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="#tech-stack" className="hover:text-slate-200">
+                <a href="#tech-stack" className="hover:text-gray-100">
                   Tech Stack
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-slate-200">
+                <a href="#contact" className="hover:text-gray-100">
                   Contact
                 </a>
               </li>
