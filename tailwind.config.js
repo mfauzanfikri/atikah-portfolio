@@ -11,7 +11,7 @@ export default {
       },
       colors: {
         primary: "#fb923c",
-        secondary: "#6b7280",
+        secondary: "#1f2937",
         dark: "#0f172a",
       },
       boxShadow: {
